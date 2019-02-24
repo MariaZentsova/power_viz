@@ -1,0 +1,497 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+  "data": {
+    "values": [
+      {
+        "Country": "Zambia",
+        "Project Name": "ShiwangÍandu Mini Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 1,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Company Website",
+        "Source:": "http://www.zesco.co.zm/projects/generation\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Kafue Gorge Lower Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 750,
+        "Average Output (Gwh/year)": null,
+        "Status": "Construction",
+        "Total Cost (USD mln)": 2000,
+        "Source Name:": "Company Website",
+        "Source:": "http://www.zesco.co.zm/projects/generation\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Kafue Gorge Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 900,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Company Website",
+        "Source:": "http://www.zesco.co.zm/projects/generation\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Kariba North Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 720,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "https://www.afdb.org/fileadmin/uploads/afdb/Documents/Generic-Documents/AEMP/AEMP_-_Zambia_Government_Presentation.pdf\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Kariba North Bank Hydro Power Plant extension",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 360,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": 420,
+        "Source Name:": "Company Website",
+        "Source:": "http://www.zesco.co.zm/projects/generation\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Musonda Falls Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 10,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Company Website",
+        "Source:": "http://www.zesco.co.zm/projects/generation\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Itezhi-Tezhi Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 120,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": 245,
+        "Source Name:": "Company Website",
+        "Source:": "http://www.zesco.co.zm/projects/generation\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Lunzua Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 14.8,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": 51,
+        "Source Name:": "Industry Publication",
+        "Source:": "https://www.renewableenergyworld.com/articles/2014/11/completion-of-14-8-mw-lunzua-zambia-small-hydro-rehabilitation-part-of-us650-million-project.html\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Lusiwasi Lower Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 15,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Lunsemfwa Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 25,
+        "Average Output (Gwh/year)": 149,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Mulungushi Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 31,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "https://www.afdb.org/fileadmin/uploads/afdb/Documents/Generic-Documents/AEMP/AEMP_-_Zambia_Government_Presentation.pdf\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Muchinga Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 180,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": 537,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/muchinga\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Kalahari GeoEnergy Geothermal Power Plant",
+        "Fuel_Type": "Geothermal",
+        "Capacity (MW)": 10,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Maamba Coal Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": 300,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": 750,
+        "Source Name:": "Industry Publication",
+        "Source:": "https://www.renewableenergyworld.com/news/2013/08/zambia-targets-geothermal-power-to-plug-energy-gap.html\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Maamba Coal Power Plant Phase 2",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": 300,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/maamba\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Batoka Gorge Hydro Power Plant - Zambia",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 800,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": 2000,
+        "Source Name:": "Industry Publication",
+        "Source:": "https://www.renewableenergyworld.com/articles/hydro/2015/2015/09/announcements-to-move-forward-development-of-several-hydro-projects-in-zambia.html\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Chipota Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 101,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": "01.мая",
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Ngonye Solar Power Plant",
+        "Fuel_Type": "Solar",
+        "Capacity (MW)": 34,
+        "Average Output (Gwh/year)": 70,
+        "Status": "Planning",
+        "Total Cost (USD mln)": 40,
+        "Source Name:": "Industry Publication",
+        "Source:": "https://www.renewableenergyworld.com/articles/2018/08/enel-begins-building-its-first-solar-park-in-zambia.html\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Chishimba Falls Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 15,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Kabwelume Falls Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 62,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/kalungwishi-hydroelectric-power-project-163-mw\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Kundabwika Falls Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 101,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/kalungwishi-hydroelectric-power-project-163-mw\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Ndola Energy Oil Power Plant",
+        "Fuel_Type": "Oil",
+        "Capacity (MW)": 105,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "https://www.afdb.org/fileadmin/uploads/afdb/Documents/Generic-Documents/AEMP/AEMP_-_Zambia_Government_Presentation.pdf\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Victoria Falls Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 108,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.zda.org.zm/?q=content/energy\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Zergamina Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 0.75,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Standby Gas Turbine",
+        "Fuel_Type": "Gas",
+        "Capacity (MW)": 80,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Dangote Coal Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": 30,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "CEC Plc _ Bancroft Power Plant",
+        "Fuel_Type": "Diesel",
+        "Capacity (MW)": 20,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "CEC Plc _ Luano Power Plant",
+        "Fuel_Type": "Diesel",
+        "Capacity (MW)": 40,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "CEC Plc _ Luanshya Power Plant",
+        "Fuel_Type": "Diesel",
+        "Capacity (MW)": 10,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "CEC Plc _ Mufulira Power Plant",
+        "Fuel_Type": "Diesel",
+        "Capacity (MW)": 10,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Rural Electrification",
+        "Fuel_Type": "Solar",
+        "Capacity (MW)": 0.06,
+        "Average Output (Gwh/year)": null,
+        "Status": "Operating",
+        "Total Cost (USD mln)": null,
+        "Source Name:": null,
+        "Source:": null
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "EMCO Coal Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": 300,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": 600,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/emco-coal-fired-power-station-300mw\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Kabompo Gorge Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 40,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/kabompo-gorge\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Chavuma Falls Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 30,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/chavuma-falls\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Chanda Falls Hydro Power Plant",
+        "Fuel_Type": "Hydro",
+        "Capacity (MW)": 1,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/chavuma-falls\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Kanzinze Coal Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": 300,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/coal-fired-power-projects\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Geomin Coal Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": 270,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/coal-fired-power-projects\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Lenika Coal Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": null,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/coal-fired-power-projects\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "MGC Coal Fired Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": 700,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/coal-fired-power-projects\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Sinazongwe Consortium Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": null,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/coal-fired-power-projects\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Texxon Energies Coal Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": 300,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/coal-fired-power-projects\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Black Rhino Coal Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": 300,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/coal-fired-power-projects\r"
+      },
+      {
+        "Country": "Zambia",
+        "Project Name": "Coal Power Plant",
+        "Fuel_Type": "Coal",
+        "Capacity (MW)": 100,
+        "Average Output (Gwh/year)": null,
+        "Status": "Planning",
+        "Total Cost (USD mln)": null,
+        "Source Name:": "Government",
+        "Source:": "http://www.opppi.gov.zm/index.php/coal-fired-power-projects"
+      }
+    ]
+  },
+  "mark": "bar",
+  "transform": [
+  { 
+    "filter": "datum.Status=== 'Operating' & datum.Fuel_Type=== 'Hydro'"
+  }
+  ],
+  "encoding": {
+    "x": {
+      "bin": true,
+      "field": "Capacity (MW)",
+      "type": "quantitative"
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative"
+    }
+  }
+}
